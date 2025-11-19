@@ -18,9 +18,7 @@ public class PlayGame {
             state.addGuess(guess, feedback);
             state.checkWin(feedback);
         }
-        display.printBoard(state); // Show the final state
-        
-        // Pass the actual secret word to the display method for the loss scenario
+        display.printBoard(state); 
         String finalSecretWord = secretWord; 
         if (!state.getGameWon()) {
             System.out.println("\n Game Over. The word was: " + finalSecretWord);

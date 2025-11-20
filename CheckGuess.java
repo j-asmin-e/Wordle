@@ -1,1 +1,1 @@
-public CheckGuess
+class CheckGuess
